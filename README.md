@@ -67,7 +67,7 @@ Geohexes that are on apex ending with 2 or 6 ends up on parent with different co
     GH6: PC227134
 
 
-### Get a list of Geohexes that form one or more ring around the center GH
+### Get a list of Geohexes that form one or more ring(s) around the center GH of any size
 
     $shell> ghgen -g PC22751 -r 1
     
@@ -90,10 +90,3 @@ Geohexes that are on apex ending with 2 or 6 ends up on parent with different co
 You can specify ring size with lat/lon, but the ring is always in GH10.
 
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/geohex-gen/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request

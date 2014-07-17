@@ -25,7 +25,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+Get a list of Geohexes that form one or more ring around the center GH
+
+    ghgen -g PC22751 -r 1
+
+Returns
+
+    PC22726
+    PC22727
+    PC22750
+    PC22752
+    PC22754
+    PC22755
+
+
 
 ## Contributing
 

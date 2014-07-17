@@ -15,9 +15,11 @@ Geohex command line utility
 This gem installs a command line tool named ghgen that:
  
 * Given lat, lon return geohex level 10 code.
-* Given a GH (any size), display center lat/lon and show GH4/5/6 that contains this location
+* Given a GH (any size), display center lat/lon and show GH4/5/6 that contains this location.
 * Given a GH (any size) and a ring size, display geohex codes that form the ring(s). 
 
+    $shell> ghgen -h
+    
     Usage: ghgen [options]
         -a LAT                           Latitude. If used, must have longitude also
         -o LON                           Longitude. If used, must have latitude also
